@@ -1,0 +1,29 @@
+doctype html
+head
+    block head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        link(href='https://fonts.googleapis.com/css?family=Lato:300,300i,700' rel='stylesheet')
+        link(rel='stylesheet' href='/css/style.css')
+        link(rel='shortcut icon' type='image/png' href='/img/favicon.png')
+        title Natours | #{title}
+        script( src='https://requirejs.org/docs/release/2.3.5/minified/require.js')
+        
+
+body
+    //HEADER
+    include _header
+
+    //CONTENT
+    block content 
+        h1 This is place holder heading 
+
+    //FOOTER
+    include _footer
+
+    
+
+
+
+
+
